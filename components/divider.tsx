@@ -8,6 +8,6 @@ export default function SectionDivider() {
 			initial={{ opacity: 0, y: 100 }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.125 }}
-			className="bg-slate-200 my-24 w-1 h-16 rounded-full hidden sm:block "></motion.div>
+			className="bg-slate-200 my-20 w-1 h-16 rounded-full hidden sm:block "></motion.div>
 	);
 }

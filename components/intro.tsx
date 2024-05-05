@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import profilePic from "@/public/profile-pic.jpeg";
 import { motion } from "framer-motion";
@@ -7,10 +7,24 @@ import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
+	const { ref, inView } = useInView({
+		threshold: 0.4,
+	});
+	const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
+
+	useEffect(() => {
+		if (inView && Date.now() - timeOfLastClick > 1000) {
+			setActiveSection("Home");
+		}
+	}, [inView, setActiveSection, timeOfLastClick]);
+
 	return (
 		<section
+			ref={ref}
 			id="home"
 			className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0">
 			<div className="flex items-center justify-center">
@@ -61,7 +75,7 @@ export default function Intro() {
 				<Link
 					className="group bg-slate-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 focus:scale-110 active:scale-105 transition"
 					href="#contact">
-					Contact me here{" "}
+					Get in Touch{" "}
 					<BsArrowRight
 						className="group-hover
                     :translate-x-1"
