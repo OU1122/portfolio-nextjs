@@ -25,7 +25,7 @@ export default function Contact() {
 			id="contact"
 			className="text-center w-[min(100%,38rem)]">
 			<SectionHeading>Contact me</SectionHeading>
-			<p className="text-slate-700">
+			<p className="text-slate-700 dark:text-white/80">
 				Please contact me at{" "}
 				<a
 					className="underline"
@@ -52,10 +52,10 @@ export default function Contact() {
 					required
 					maxLength={2000}
 					placeholder="Your message"
-					className="h-52 my-3 rounded-lg border outline-slate-700 border-black/10 p-4"
+					className="h-52 my-3 rounded-lg border dark:outline-slate-200 outline-slate-700 border-black/10 p-4"
 				/>
 				<button
-					className="flex gap-2 items-center justify-center h-[3rem] w-[8rem] bg-slate-900 text-white rounded-full outline-none transition-all hover:scale-[1.05] "
+					className="flex gap-2 items-center justify-center h-[3rem] w-[8rem] bg-slate-900 dark:border-slate-300 dark:border text-white rounded-full outline-none transition-all hover:scale-[1.05] "
 					type="submit">
 					Submit <FaPaperPlane />
 				</button>

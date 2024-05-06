@@ -83,13 +83,13 @@ export default function Intro() {
 				</Link>
 
 				<a
-					className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 hover:scale-110 transition cursor-pointer"
+					className="bg-white dark:bg-white/10 dark:text-white text-slate-700 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 hover:scale-110 transition cursor-pointer"
 					href="https://linkedin.com"
 					target="_blank">
 					<BsLinkedin />
 				</a>
 
-				<a className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-full text-[1.1rem] outline-none focus:scale-110 active:scale-105 hover:scale-110 transition hover:cursor-pointer">
+				<a className="bg-white  dark:bg-white/10 dark:text-white text-slate-700 p-4 flex items-center gap-2 rounded-full text-[1.1rem] outline-none focus:scale-110 active:scale-105 hover:scale-110 transition hover:cursor-pointer">
 					<FaGithubSquare />
 				</a>
 			</motion.div>

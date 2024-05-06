@@ -27,7 +27,7 @@ export default function Skills() {
 			<ul className="flex flex-wrap justify-center items-center">
 				{skillsData.map((skill, index) => (
 					<motion.li
-						className=" text-slate-900 p-2 sm:px-4 hover:scale-[1.07] hover:bg-slate-200 sm:py-2 text-l sm:text-xl border my-2 mx-2 sm:mx-3 sm:my-3 rounded-full"
+						className="dark:bg-white/10 hover:dark:bg-white/15 dark:text-white/80 hover:dark:text-white/95 text-slate-900 p-2 sm:px-4 hover:scale-[1.07] hover:bg-slate-200 sm:py-2 text-l sm:text-xl border my-2 mx-2 sm:mx-3 sm:my-3 rounded-full"
 						key={index}
 						whileInView="animate"
 						initial={{ opacity: 0, y: 100 }}

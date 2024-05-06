@@ -15,7 +15,7 @@ function Header() {
 	return (
 		<header className="z-[999] relative">
 			<motion.div
-				className="fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full -translate-x-1/2"
+				className="dark:bg-slate-800 fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border dark:bg-opacity-75 dark:border-none border-white border-opacity-50 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full -translate-x-1/2"
 				initial={{ y: -100, x: "-50%", opacity: 0 }}
 				animate={{ y: 0, x: "-50%", opacity: 1 }}></motion.div>
 
@@ -29,9 +29,10 @@ function Header() {
 							animate={{ y: 0, opacity: 1 }}>
 							<Link
 								className={clsx(
-									"flex w-full items-center justify-center px-3 py-3 hover:text-slate-950 transition",
+									"flex w-full items-center justify-center px-3 py-3 hover:text-slate-950 hover:dark:text-slate-300 transition",
 									{
-										"text-slate-950": activeSection === link.name,
+										"text-slate-950 dark:text-slate-300":
+											activeSection === link.name,
 									}
 								)}
 								href={link.hash}
@@ -42,7 +43,7 @@ function Header() {
 								{link.name}
 								{link.name === activeSection && (
 									<motion.span
-										className="bg-slate-100 rounded-full absolute inset-0 -z-10"
+										className=" bg-slate-100 dark:bg-slate-800 rounded-full absolute inset-0 -z-10"
 										layoutId="activeSection"
 										transition={{
 											type: "spring",
