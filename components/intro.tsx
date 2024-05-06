@@ -62,8 +62,8 @@ export default function Intro() {
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}
 				className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
-				Hi, I am Ondrej. I'm a{" "}
-				<span className="font-bold">front-end developer.</span> Continue
+				Hi, I&apos;m Ondrej. I am a
+				<span className="font-bold"> front-end developer.</span> Continue
 				reading to learn why I would make a great addition to your
 				development team!
 			</motion.p>
