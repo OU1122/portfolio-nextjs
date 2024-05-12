@@ -28,16 +28,24 @@ export default function About() {
 			<SectionHeading>About me</SectionHeading>
 
 			<p className="mb-3">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ullam
-				sit dolore nostrum obcaecati, voluptate saepe non, in odit iure,
-				quam officia inventore deleniti. Exercitationem delectus ullam ipsa
-				numquam mollitia?
+				I&apos;m a passionate Front End Developer based in the vibrant city
+				of London. With a background in{" "}
+				<span className="font-bold">
+					Web, Frontend & Ecommerce Development
+				</span>
+				, I&apos;m all about creating visually stunning and user-friendly
+				web experiences that leave a lasting impression. I geek out over
+				modern web and e-commerce technologies like JavaScript, React.js,
+				HTML/CSS, and Shopify, and I&apos;ve got a knack for crafting
+				responsive, reusable, and lightning-fast user interfaces.
 			</p>
-			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-				velit totam eveniet, iure, mollitia sapiente sequi quam recusandae
-				debitis atque dolor adipisci obcaecati quidem laboriosam illo.
-				Necessitatibus excepturi consequatur voluptatibus!
+			<p className="mt-6">
+				I bring not just technical expertise, but also a passion for design
+				and user experience. I thrive in collaborative environments, have a
+				strong background in project management, and am committed to
+				delivering high-quality solutions while continuously learning and
+				adapting to new technologies and industry best practices. Let&apos;s
+				build something awesome together!
 			</p>
 		</motion.section>
 	);
