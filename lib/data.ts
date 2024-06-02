@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import colapzImg from "@/public/colapz.png";
+import bbImg from "@/public/bb.png";
 
 export const links = [
 	{
@@ -62,25 +62,39 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: "Calle Jara",
+		title: "ProperMove",
 		description:
-			"Static website created to promote a holiday rental business in Spain. With a user-friendly interface, visitors can easily learn about the property and contact the owner directly to ficiliate bookings.",
-		tags: ["React", "Next.js", "Tailwind", "Zod", "Framer Motion:"],
+			"Property search made easy. Personal project built for the purpose of testing JWT authentication, new React Router and Prisma ORM",
+		tags: ["React", "TypeScript", "NodeJS", "Express", "MongoDB", "Prisma"],
 		imageUrl: corpcommentImg,
 	},
 	{
-		title: "rmtDev",
+		title: "Calle Jara",
 		description:
-			"Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-		imageUrl: rmtdevImg,
+			"Static website created to promote a holiday rental business in Spain. With a user-friendly interface, visitors can easily learn about the property and contact the owner directly to facilitate bookings.",
+		tags: ["React", "Next.js", "Tailwind", "MUI", "Zod", "Framer Motion"],
+		imageUrl: corpcommentImg,
 	},
 	{
-		title: "Word Analytics",
+		title: "Colapz",
 		description:
-			"A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-		imageUrl: wordanalyticsImg,
+			"Ecommerce website selling innovative and save-spacing in the Camping, Motorhome & Campervan niche. Leading on the website development, implementation of the design, social proof features, upsell & cross-sell and more.",
+		tags: [
+			"Shopify",
+			"Liquid",
+			"Project Management",
+			"GitHub",
+			"Monday.com",
+			"APIs",
+		],
+		imageUrl: colapzImg,
+	},
+	{
+		title: "BAKBLADE",
+		description:
+			"7 Figure Ecommerce website selling mens grooming tools to men in the US 🇺🇸. Developed and Managed by me and my team. Improved website loading speed, SEO ranking, UX & conversion rate (60% uplift).",
+		tags: ["Shopify", "Liquid", "Project Management", "GitHub", "APIs"],
+		imageUrl: bbImg,
 	},
 ] as const;
 
