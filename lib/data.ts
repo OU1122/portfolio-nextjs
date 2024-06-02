@@ -62,10 +62,10 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: "CorpComment",
+		title: "Calle Jara",
 		description:
-			"I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+			"Static website created to promote a holiday rental business in Spain. With a user-friendly interface, visitors can easily learn about the property and contact the owner directly to ficiliate bookings.",
+		tags: ["React", "Next.js", "Tailwind", "Zod", "Framer Motion:"],
 		imageUrl: corpcommentImg,
 	},
 	{
