@@ -64,8 +64,7 @@ export default function Intro() {
 				className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
 				Hi, I&apos;m Ondrej. I am a
 				<span className="font-bold"> front-end developer.</span> Continue
-				reading to learn why I would make a great addition to your
-				development team!
+				reading to learn more about me, my experience and my projects.
 			</motion.p>
 			<motion.div
 				initial={{ opacity: 0, y: 100 }}
@@ -84,12 +83,14 @@ export default function Intro() {
 
 				<a
 					className="bg-white dark:bg-white/10 dark:text-white text-slate-700 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 hover:scale-110 transition cursor-pointer"
-					href="https://linkedin.com"
+					href="https://www.linkedin.com/in/ondrej-urgosik/"
 					target="_blank">
 					<BsLinkedin />
 				</a>
 
-				<a className="bg-white  dark:bg-white/10 dark:text-white text-slate-700 p-4 flex items-center gap-2 rounded-full text-[1.1rem] outline-none focus:scale-110 active:scale-105 hover:scale-110 transition hover:cursor-pointer">
+				<a
+					href="https://github.com/OU1122/"
+					className="bg-white  dark:bg-white/10 dark:text-white text-slate-700 p-4 flex items-center gap-2 rounded-full text-[1.1rem] outline-none focus:scale-110 active:scale-105 hover:scale-110 transition hover:cursor-pointer">
 					<FaGithubSquare />
 				</a>
 			</motion.div>
