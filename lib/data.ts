@@ -85,7 +85,7 @@ export const projectsData = [
 			"Project Management",
 			"GitHub",
 			"Monday.com",
-			"APIs",
+			"API",
 		],
 		imageUrl: colapzImg,
 	},
@@ -93,7 +93,7 @@ export const projectsData = [
 		title: "BAKBLADE",
 		description:
 			"7 Figure Ecommerce website selling mens grooming tools to men in the US 🇺🇸. Developed and Managed by me and my team. Improved website loading speed, SEO ranking, UX & conversion rate (60% uplift).",
-		tags: ["Shopify", "Liquid", "Project Management", "GitHub", "APIs"],
+		tags: ["Shopify", "Liquid", "Project Management", "GitHub", "API"],
 		imageUrl: bbImg,
 	},
 ] as const;
