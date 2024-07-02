@@ -1,14 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-
 import { FaWordpress } from "react-icons/fa";
-
 import { FaShopify } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import colapzImg from "@/public/colapz.png";
 import bbImg from "@/public/bb.png";
 import properMove from "@/public/proper-move.jpg";
-import calleJara from "@/public/callejara.png";
 
 export const links = [
 	{
@@ -86,7 +83,7 @@ export const projectsData = [
 		description:
 			"Static website created to promote a holiday rental business in Spain. With a user-friendly interface, visitors can easily learn about the property and contact the owner directly to facilitate bookings.",
 		tags: ["React", "Next.js", "Tailwind", "MUI", "Zod", "Framer Motion"],
-		imageUrl: calleJara,
+		imageUrl: properMove,
 		link: "/",
 	},
 	{
