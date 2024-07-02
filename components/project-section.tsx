@@ -10,12 +10,13 @@ export default function Project({
 	description,
 	tags,
 	imageUrl,
+	link,
 }: ProjectProps) {
 	return (
 		<section className="group bg-slate-100 dark:bg-slate-600 sm:max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-auto mb-3 sm:mb-7 hover:bg-slate-200 transition rounded-xl">
 			<div className=" pt-5 pb-8 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col sm:h-full group-even:sm:ml-[18rem] px-10 sm:px-0">
-				<h3 className="mb-3 text-center text-2xl sm:text-left dark:text-slate-200 font-semibold">
-					{title}
+				<h3 className="mb-3 text-center text-2xl sm:text-left dark:text-slate-200 font-semibold underline hover:no-underline">
+					<a href={`${link}`}>{title}</a>
 				</h3>
 				<p className=" mb-6 sm:mb-0 mt-2 leading-relaxed dark:text-slate-200 text-slate-700 ">
 					{description}

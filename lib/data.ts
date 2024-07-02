@@ -5,9 +5,10 @@ import { FaWordpress } from "react-icons/fa";
 
 import { FaShopify } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import colapzImg from "@/public/colapz.png";
 import bbImg from "@/public/bb.png";
+import properMove from "@/public/proper-move.jpg";
+import calleJara from "@/public/callejara.png";
 
 export const links = [
 	{
@@ -77,14 +78,16 @@ export const projectsData = [
 		description:
 			"Property search made easy. Personal project built for the purpose of testing JWT authentication, new React Router and Prisma ORM",
 		tags: ["React", "TypeScript", "NodeJS", "Express", "MongoDB", "Prisma"],
-		imageUrl: colapzImg,
+		imageUrl: properMove,
+		link: "https://proper-move.netlify.app",
 	},
 	{
 		title: "Calle Jara",
 		description:
 			"Static website created to promote a holiday rental business in Spain. With a user-friendly interface, visitors can easily learn about the property and contact the owner directly to facilitate bookings.",
 		tags: ["React", "Next.js", "Tailwind", "MUI", "Zod", "Framer Motion"],
-		imageUrl: colapzImg,
+		imageUrl: calleJara,
+		link: "/",
 	},
 	{
 		title: "Colapz",
@@ -99,6 +102,7 @@ export const projectsData = [
 			"API",
 		],
 		imageUrl: colapzImg,
+		link: "https://colapz.co.uk",
 	},
 	{
 		title: "BAKBLADE",
@@ -106,6 +110,7 @@ export const projectsData = [
 			"7 Figure Ecommerce website selling mens grooming tools to men in the US 🇺🇸. Developed and Managed by me and my team. Improved website loading speed, SEO ranking, UX & conversion rate (60% uplift).",
 		tags: ["Shopify", "Liquid", "Project Management", "GitHub", "API"],
 		imageUrl: bbImg,
+		link: "https://bakblade.com",
 	},
 ] as const;
 
