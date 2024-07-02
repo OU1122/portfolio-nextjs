@@ -9,7 +9,7 @@ import colapzImg from "@/public/colapz.png";
 import bbImg from "@/public/bb.png";
 import properMove from "@/public/proper-move.jpg";
 import calleJara from "@/public/callejara.png";
-//update
+
 export const links = [
 	{
 		name: "Home",
