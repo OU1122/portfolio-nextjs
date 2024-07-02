@@ -6,7 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import colapzImg from "@/public/colapz.png";
 import bbImg from "@/public/bb.png";
 import properMove from "@/public/proper-move.jpg";
-import calleJara from "@/public/callejara.png";
+import calleJara from "@/public/calle-jara.png";
 
 export const links = [
 	{
