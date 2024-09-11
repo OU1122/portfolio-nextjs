@@ -7,6 +7,7 @@ import colapzImg from "@/public/colapz.png";
 import bbImg from "@/public/bb.png";
 import properMove from "@/public/proper-move.jpg";
 import calleJara from "@/public/calle-jara.png";
+import devJobs from "@/public/devjobs.png";
 
 export const links = [
 	{
@@ -86,6 +87,14 @@ export const projectsData = [
 		tags: ["React", "Next.js", "Tailwind", "MUI", "Zod", "Framer Motion"],
 		imageUrl: calleJara,
 		link: "/",
+	},
+	{
+		title: "DevJobs",
+		description:
+			"Job Board Frontend App Concept. Currently using local .json data file - Work in progress to turn this into an Full Stack App.",
+		tags: ["React", "TypeScript"],
+		imageUrl: devJobs,
+		link: "https://66e142fc39d2e6a7708ad8a9--sunny-scone-9a0760.netlify.app/",
 	},
 	{
 		title: "Colapz",
