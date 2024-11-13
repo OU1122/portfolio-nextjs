@@ -8,6 +8,7 @@ import bbImg from "@/public/bb.png";
 import properMove from "@/public/proper-move.jpg";
 import calleJara from "@/public/calle-jara.png";
 import devJobs from "@/public/devjobs.png";
+import entertainmentApp from "@/public/entertainment-app.png";
 
 export const links = [
 	{
@@ -79,6 +80,23 @@ export const projectsData = [
 		tags: ["React", "TypeScript", "NodeJS", "Express", "MongoDB", "Prisma"],
 		imageUrl: properMove,
 		link: "https://proper-move.netlify.app",
+	},
+	{
+		title: "Entertainment App",
+		description:
+			"Skeleton of an media streaming platform. Personal project built for the purpose of testing Supabase auth & DB, as well as TanStack Query",
+		tags: [
+			"React",
+			"TypeScript",
+			"NodeJS",
+			"Express",
+			"SQL",
+			"Supabase",
+			"TanStack Query",
+			"Tailwind",
+		],
+		imageUrl: entertainmentApp,
+		link: "https://entertainment-app12.netlify.app/",
 	},
 	{
 		title: "Calle Jara",

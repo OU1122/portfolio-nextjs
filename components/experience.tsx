@@ -13,7 +13,7 @@ import { useTheme } from "./theme-context";
 
 export default function Experience() {
 	const { ref, inView } = useInView({
-		threshold: 0.5,
+		threshold: 0.2,
 	});
 	const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 	const { theme } = useTheme();
